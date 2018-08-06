@@ -19,3 +19,12 @@ while (n > 0) {
    
    return "done"
 }
+
+function doWhileLoop(array){
+  do{
+  array.shift()
+  console.log('array')}
+while (array.length > 0 || maybeTrue());
+
+return array
+}
